@@ -84,4 +84,5 @@ public class DataEntity {
 				+ email + ", password=" + password + ", phone=" + phone + "]";
 	}
 
+
 }
