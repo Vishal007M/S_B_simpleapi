@@ -11,6 +11,8 @@ public interface DataEntityServices {
 
 	public List<DataEntity> getEntity();
 
+	public void deleteById(int dataEntityId);
+
 
 
 }
