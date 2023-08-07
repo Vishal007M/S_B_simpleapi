@@ -31,6 +31,10 @@ public class DataEntityController {
 	@GetMapping("/view/{dataEntityId}")
 	public DataEntity addEntity(@PathVariable int dataEntityId) {
 		return this.entityService.getIdEntity(dataEntityId);
+		
+		
+//		return ResponseHandler.responseBuilder("success", HttpStatus.OK,
+//				crmOrganizationServices.getCrmOrganization(crmOrganizationUuid));
 	}
 	
 	
